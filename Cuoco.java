@@ -15,6 +15,17 @@ package mensaaziendaletpsit;
  */
 public class Cuoco extends Thread{
     
+    String nomeCuoco;
+
+    public Cuoco(String nomeCuoco) {
+        this.nomeCuoco = nomeCuoco;
+    }
+
+    public Cuoco(Bancone b) {
+    }
+    
+    
+    
     double casuale = (int)(Math.random()*10);
     Bancone a = new Bancone();
 

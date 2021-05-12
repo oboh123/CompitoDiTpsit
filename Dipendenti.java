@@ -16,7 +16,7 @@ public class Dipendenti extends Thread{
     Bancone a = new Bancone();
     double casuale = (int)(Math.random()*10);    
 
-    public Dipendenti() {
+    public Dipendenti(Bancone b) {
     }
 
 
